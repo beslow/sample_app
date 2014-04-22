@@ -21,7 +21,7 @@ doc/
 *~
 .project
 .DS_Store
-.idea
-.idea/workspace.xml
+/.idea
+/.idea/workspace.xml
 bundler_stubs/
 .gitignore
