@@ -14,7 +14,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-
 # Ignore other unneeded files.
 doc/
 *.swp
@@ -22,6 +21,6 @@ doc/
 .project
 .DS_Store
 /.idea
-/.idea/workspace.xml
 bundler_stubs/
 .gitignore
+.idea
