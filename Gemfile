@@ -26,6 +26,10 @@ group :development,:test do
   gem 'childprocess','>= 0.3.6'
   gem 'factory_girl_rails', '4.2.1'
 end
+group :test do
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
+end
 # Use jquery as the JavaScript library
 gem 'selenium-webdriver','2.35.1'
 gem 'minitest'
